@@ -93,7 +93,7 @@ with st.container():
         
     with col5:
         df_aux = df1.loc[df1['cuisines'] == 'Home-made', ['restaurant_name', 'aggregate_rating', 'restaurant_id']].sort_values(by=['aggregate_rating', 'restaurant_id'], ascending=[False, True]).iloc[0, 0]
-        st.metric(label='Home-made', value=' ', delta=df_aux)
+        st.metric(label='Home-made', value=' ', delta=df_aux, delta_color='off')
         
     with col6:
         df_aux = df1.loc[df1['cuisines'] == 'Brazilian', ['restaurant_name', 'aggregate_rating', 'restaurant_id']].sort_values(by=['aggregate_rating', 'restaurant_id'], ascending=[False, True]).iloc[0, 0]
