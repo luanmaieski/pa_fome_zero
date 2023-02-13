@@ -1,7 +1,6 @@
 #Libraries
 import pandas as pd
 import streamlit as st
-import inflection
 import folium
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
