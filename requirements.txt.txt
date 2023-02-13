@@ -1,4 +1,4 @@
-folium==0.13.0
+folium==0.14.0
 Pillow==9.2.0
 wordcloud==1.8.2.2
 matplotlib==3.6.2
